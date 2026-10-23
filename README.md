@@ -5,7 +5,7 @@ Add to composer.json:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/denis909/yii2.git"
+            "url": "https://github.com/denis909/yii2-save-related.git"
         }
     ],
 ```
@@ -13,5 +13,5 @@ Add to composer.json:
 Run:
 
 ```
-composer require denis909/yii2:dev-main --prefer-source
+composer require denis909/yii2-save-related:dev-main --prefer-source
 ```
