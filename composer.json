@@ -1,4 +1,18 @@
 {
     "name": "denis909/yii2-save-related",
-    "license": "MIT"
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "denis909",
+            "email": "denis909@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "denis909\\yii2\\": "src"
+        }
+    },
+    "require" : {
+        "denis909/yii2" : "dev-main"
+    }
 }

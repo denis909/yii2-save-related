@@ -1,5 +1,7 @@
 # yii2
 
+### Installation
+
 Add to composer.json:
 ```
     "repositories": [
@@ -13,5 +15,5 @@ Add to composer.json:
 Run:
 
 ```
-composer require denis909/yii2-save-related:dev-main --prefer-source
+composer require denis909/yii2-save-related:dev-main
 ```
