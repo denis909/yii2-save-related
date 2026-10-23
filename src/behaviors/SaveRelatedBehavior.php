@@ -5,16 +5,16 @@
  */
 namespace denis909\yii2\behaviors;
 
+use yii\base\Event;
+use yii\base\ModelEvent;
 use yii\base\Behavior;
 use yii\base\Model;
+use yii\helpers\Html;
 use yii\db\ActiveRecord;
 use yii\db\AfterSaveEvent;
 use denis909\yii2\exceptions\ModelException;
 use denis909\yii2\events\LoadEvent;
-use yii\base\Event;
-use yii\base\ModelEvent;
-use yii\helpers\Html;
-use denis909\yii\helpers\SaveRelated;
+use denis909\yii2\helpers\SaveRelated;
 use Closure;
 
 class SaveRelatedBehavior extends Behavior
