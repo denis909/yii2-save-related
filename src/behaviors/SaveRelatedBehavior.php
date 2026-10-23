@@ -3,7 +3,7 @@
  * @author denis909
  * @license MIT
  */
-namespace denis909\yii\behaviors;
+namespace denis909\yii2\behaviors;
 
 use yii\base\Behavior;
 use yii\base\Model;
