@@ -47,12 +47,7 @@ class SaveRelatedBehavior extends Behavior
 
     public function onLoad(LoadEvent $event)
     {
-        $isValid = Model::loadMultiple($this->getModels(), $event->values);
-
-        if ($event->isValid)
-        {
-            $event->isValid = $isValid;
-        }
+        Model::loadMultiple($this->getModels(), $event->values);
     }
 
     public function onAfterValidate(Event $event)
